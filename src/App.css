@@ -19,10 +19,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,4 +26,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: calc(10px + 1vmin);
+  font-weight: bold;
+  color: white;
+  background: #538E6D;
+  border: 2px solid #538E6D;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #4a7f62;
+}
+
+.button:active {
+  background: #427157;
 }
