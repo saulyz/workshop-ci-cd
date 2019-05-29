@@ -46,3 +46,23 @@
 .button:active {
   background: #427157;
 }
+
+.message {
+  transition: all 300ms ease-out;
+}
+
+.message.processing {
+  transform: scale(1.1);
+}
+
+.message.default {
+  color: lightgray;
+}
+
+.message.success {
+  color: lightgreen;
+}
+
+.message.failure {
+  color: lightcoral;
+}
