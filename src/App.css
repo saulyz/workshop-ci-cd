@@ -33,9 +33,9 @@
   padding: 10px 20px;
   font-size: calc(10px + 1vmin);
   font-weight: bold;
-  color: white;
-  background: #538e6d;
-  border: 2px solid #538e6d;
+  color: black;
+  background: #f2fff8;
+  border: 2px solid #000000;
   border-radius: 3px;
   cursor: pointer;
 }
