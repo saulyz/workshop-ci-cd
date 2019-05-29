@@ -1,0 +1,19 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/mars/create-react-app-buildpack"
+    }
+  ],
+  "description": "Playing with Heroku pipelines",
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "workshop-ci-cd",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}

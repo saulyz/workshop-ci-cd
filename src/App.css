@@ -3,13 +3,14 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 5s linear;
   height: 40vmin;
   pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background: linear-gradient( to right, #1d2b64, #c597a5 );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -56,7 +57,7 @@
 }
 
 .message.default {
-  color: lightgray;
+  color: #d3dfd9;
 }
 
 .message.success {
